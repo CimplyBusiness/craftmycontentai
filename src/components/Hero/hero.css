@@ -1,0 +1,14 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Adjust height as needed */
+    background-color: #eaeaea; /* Placeholder color */
+    /* Add a background image if needed */
+    background-image: url('../../pages/images/Homepagebackground.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Add more styles for any text or buttons you have in your hero section */
+  

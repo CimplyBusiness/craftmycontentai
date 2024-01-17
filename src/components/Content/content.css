@@ -1,0 +1,15 @@
+.content {
+    padding: 2em;
+    background-color: #fff; /* Placeholder color */
+  }
+  
+  .content h1 {
+    color: #333;
+    margin-bottom: 1em;
+  }
+  
+  .content p {
+    color: #666;
+    line-height: 1.6;
+  }
+  

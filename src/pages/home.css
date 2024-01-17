@@ -1,0 +1,56 @@
+/* home.css */
+.home {
+  text-align: center;
+}
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-section {
+  background-image: url('./images/Homepagebackground.png');
+  background-size: cover;  /* Scale the background image to cover the entire container */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+  color: white; /* Adjust text color if necessary for visibility */
+  min-height: 100vh; /* Adjust height as needed */
+  min-width: 100vh;
+  background-color: #ffffff; /* Fallback color */
+}
+
+
+/* Styles for primary and secondary buttons */
+
+.primary-button, .secondary-button {
+  margin: 10px;
+  padding: 15px 30px; /* Slightly larger padding for better button size */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em; /* Adjust font size as needed */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.primary-button {
+  background-color: #007bff; /* Your primary color */
+}
+
+.secondary-button {
+  background-color: #6c757d; /* Your secondary color */
+}
+
+.primary-button:hover, .secondary-button:hover {
+  opacity: 0.9; /* Slight opacity change on hover for visual effect */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 2em;
+  }
+
+  .primary-button, .secondary-button {
+    padding: 10px 20px;
+    font-size: 0.9em;
+  }
+}
